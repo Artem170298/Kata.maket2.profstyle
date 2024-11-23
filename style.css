@@ -1,0 +1,79 @@
+
+body {
+    font-family: "TT Lakes";
+    font-size: 16px;
+}
+
+.rectangle{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 1024px;
+    border: 2px solid black;
+   
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    
+}
+
+.header {
+    display: flex;
+    width: 320px;
+    height: 70px;
+    justify-content: space-around;
+    border: 2px solid red;
+}
+
+.header__element {
+    width: 40px;
+    height: 40px;
+}
+
+.ic-group{
+    width: 97px;
+    height: 51px;
+}
+
+.main-menu__list{
+    list-style: none;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid yellow;
+}
+
+.main-menu{
+    border: 2px solid green;
+}
+
+.lang {
+    width: 87px;
+    height: 24px;
+    opacity: 0px;
+    justify-self: flex-end;
+    border: 2px solid blue;
+}
+
+button{
+    border: none;
+}
+
+.lang__button {
+    background-color: white;
+    border: none;
+    font-family: TT Lakes;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 1px;
+    margin: 1px;
+}
+
+.contact_icon{
+    border: 2px solid teal;
+    display: flex;
+}
