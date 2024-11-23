@@ -1,0 +1,23 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 320px;
+    box-sizing: border-box;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+.header__element {
+    margin: 20px;
+    margin-top: 25px;
+}
+
+.header__ic-group{
+    width: 97px;
+    height: 51px;
+}
+
+.header__ic-search{
+    margin-left: auto;
+}

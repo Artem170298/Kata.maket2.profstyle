@@ -1,16 +1,17 @@
+@import url("rectangle.css");
+@import url("animation.css");
 
 body {
-    font-family: "TT Lakes";
+    font-family: "TTLakes";
     font-size: 16px;
+    padding: 0;
+    margin: 0;
+    
 }
 
-.rectangle{
-    display: flex;
-    flex-direction: column;
-    width: 320px;
-    height: 1024px;
-    border: 2px solid black;
-   
+a{
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
 }
 
 .icon{
@@ -19,61 +20,30 @@ body {
     
 }
 
-.header {
-    display: flex;
-    width: 320px;
-    height: 70px;
-    justify-content: space-around;
-    border: 2px solid red;
-}
-
-.header__element {
-    width: 40px;
-    height: 40px;
-}
-
-.ic-group{
-    width: 97px;
-    height: 51px;
-}
-
-.main-menu__list{
-    list-style: none;
-}
-
-.contact {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid yellow;
-}
-
-.main-menu{
-    border: 2px solid green;
-}
-
-.lang {
-    width: 87px;
-    height: 24px;
-    opacity: 0px;
-    justify-self: flex-end;
-    border: 2px solid blue;
-}
-
 button{
     border: none;
 }
 
-.lang__button {
-    background-color: white;
-    border: none;
-    font-family: TT Lakes;
-    font-size: 16px;
-    line-height: 24px;
-    padding: 1px;
-    margin: 1px;
+.header__element,.contact-icon__elem{
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border-radius: 50%;
 }
 
-.contact_icon{
-    border: 2px solid teal;
+.header__element:hover,.contact-icon__elem:hover{
+    opacity: 0.7;
+}
+
+.b-list {
+    margin: 0;
+    width: 225px;
+    padding: 10px 0px;
+    list-style: none;
+}
+
+.footer {
     display: flex;
+    flex-direction: column;
+    justify-self:end;
 }
